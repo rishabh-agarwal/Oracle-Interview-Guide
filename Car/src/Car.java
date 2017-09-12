@@ -25,13 +25,14 @@ public class Car {
 	
 	
 	public void printVariables() {
+		System.out.println("Name of Car: "+  nameOfCar);
 		System.out.println("This is the MaxSpeed: "+ maxSpeed);
 		System.out.println("This is the MinSpeed: "+ minSpeed);
 		System.out.println("This is the Weight: "+ weight);
 		System.out.println("Is the Car on: "+ isTheCarOn);
 		System.out.println("Condition of the Car: "+  condition);
-		System.out.println("Name of Car: "+  nameOfCar);
 		System.out.println("Number Of People in Car: "+ numberOfPeopleInCar);
+		System.out.println("");
 	}
 	
 	public void wreckCar() {
