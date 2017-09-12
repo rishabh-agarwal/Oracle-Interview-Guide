@@ -16,11 +16,17 @@ public class Car {
 	double mpg = 26.4;
 	
 	int numberOfPeopleInCar = 1;
+	int maxNumberOfPeopleInCar = 6;
+	
+	public Car() {
+		
+	}
 	
 	//constructor is custom initializer- if we don't want default values
-	public Car(int customMinSpeed, String customCarName) {
-		minSpeed = customMinSpeed ;
-		nameOfCar = customCarName;
+	public Car(int customMaxSpeed, double customWeight, boolean customIsTheCarOn) {
+		maxSpeed = customMaxSpeed;
+		weight = customWeight;
+		isTheCarOn = customIsTheCarOn;
 	}
 	
 	
@@ -45,23 +51,49 @@ public class Car {
 	}
 	
 	public void getIn() {
-		numberOfPeopleInCar = numberOfPeopleInCar+1;
+		if(numberOfPeopleInCar < maxNumberOfPeopleInCar) {
+			numberOfPeopleInCar = numberOfPeopleInCar+1;
+			System.out.println("SomeOne Got In : " + numberOfPeopleInCar);
+		} 
+		else	{
+			System.out.println("The car is full!" + numberOfPeopleInCar + " = " + maxNumberOfPeopleInCar);
+		}
+		
 	}
 	
 	public void getOut() {
+		if(numberOfPeopleInCar > 0) {
 		numberOfPeopleInCar --;
+		}
+		else {
+			System.out.println("No One is in the Car: " + numberOfPeopleInCar );
+		}
+		
+	}
+	
+	public void turnTheCarOn() {
+		if(!isTheCarOn) {
+		isTheCarOn = true;
+		}
+		else {
+			System.out.println("The Car is already on!");
+		}
 	}
 	
 	public static void main(String[] args) {
 		
-		Car BirthdayPresent  = new Car(10, "BirthdayPresent");
-		BirthdayPresent.getIn();
-		BirthdayPresent.getIn();
-		BirthdayPresent.printVariables();
-		Car christmasPresent = new Car(550,"christmasPresent");
-		christmasPresent.getOut();
-		christmasPresent.printVariables();
-		
+		Car tommyCar = new Car(); 
+		tommyCar.getOut();
+		tommyCar.getOut();
+		tommyCar.getIn();
+		tommyCar.getIn();
+		tommyCar.getIn();
+		tommyCar.getIn();
+		tommyCar.getIn();
+		tommyCar.getIn();
+		tommyCar.getIn();
+		tommyCar.turnTheCarOn();
+		tommyCar.turnTheCarOn();
 	}
 
 }
