@@ -1,3 +1,4 @@
+import java.lang.reflect.Array;
 import java.util.Arrays;
 
 public class ArrayPractice {
@@ -53,6 +54,7 @@ public class ArrayPractice {
 		// Retrieve Objects
 		System.out.println("Retrieve object");
 		System.out.println(intArray2[3]);
+		System.out.println(Array.get(intArray2, 3));
 
 		// Given Functions
 		Arrays.sort(intArray3);
