@@ -21,5 +21,8 @@ public class DictionaryPractice {
 		System.out.println(englSpanDictionary.get("Wednesday"));
 		System.out.println(englSpanDictionary.get("Thrusday"));
 		System.out.println(englSpanDictionary.get("Friday"));
+		
+		System.out.println(englSpanDictionary.keySet());
+		System.out.println(englSpanDictionary.values());
 	}
 }
