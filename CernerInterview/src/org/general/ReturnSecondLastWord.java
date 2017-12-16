@@ -10,8 +10,6 @@ import java.util.BitSet;
 import java.util.Scanner;
 
 public class ReturnSecondLastWord {
-
-
 	
 	public static void main(String[] args) {
 				
