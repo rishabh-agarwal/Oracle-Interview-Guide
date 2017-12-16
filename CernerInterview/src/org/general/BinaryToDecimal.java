@@ -1,5 +1,10 @@
+/*
+ * @author: Rishabh Agarwal
+ * 
+ * Convert Decimal number to Binary
+ */
+
 package org.general;
-//Binary to decimal and visa versa
 public class BinaryToDecimal {
 
 	public static void main(String[] args) {

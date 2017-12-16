@@ -1,5 +1,13 @@
 package org.general;
 
+/*
+ * @author: Rishabh Agarwal
+ * 
+ * Find the longest repeating substring
+ * 
+ */
+
+
 public class longestDuplicate {
 
 	public static void main(String[] args) {

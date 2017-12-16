@@ -1,3 +1,9 @@
+/*
+ * @author: Rishabh Agarwal
+ * 
+ * Find the mode or most occuring element in a list, also find the max
+ */
+
 package org.general;
 
 import java.util.ArrayList;

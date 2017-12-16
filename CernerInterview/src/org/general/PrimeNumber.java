@@ -1,3 +1,10 @@
+/*
+ * @author: Rishabh Agarwal
+ * 
+ * Find the prime Number
+ * 
+ */
+
 package org.general;
 
 import java.util.Scanner;

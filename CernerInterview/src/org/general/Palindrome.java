@@ -1,3 +1,7 @@
+/*
+ * A palindrome number is whoes reverse is same as original. For example 122221, 787
+ */
+
 package org.general;
 
 import java.util.Scanner;
@@ -11,7 +15,7 @@ public class Palindrome {
 		
 		Scanner sc = new Scanner(System.in);
 		
-		System.out.println("Enter a String");
+		System.out.println("Enter a number");
 		original = sc.next();
 		
 		char[] temp = original.toCharArray();

@@ -1,3 +1,8 @@
+/*
+ * @author: Rishabh Agarwal
+ * 
+ * Reverse a word
+ */
 package org.general;
 
 import java.util.Scanner;

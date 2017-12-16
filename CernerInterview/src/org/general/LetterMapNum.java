@@ -1,3 +1,9 @@
+/*
+ * @author: Rishabh Map
+ * 
+ * Map Every number to letter, for example if you type ABCD it should return 0123
+ * 
+ */
 package org.general;
 
 import java.util.HashMap;
