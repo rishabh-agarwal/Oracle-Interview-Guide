@@ -4,7 +4,6 @@ package org.general;
  * @author: Rishabh Agarwal
  * 
  * Find the longest repeating substring
- * 
  */
 
 

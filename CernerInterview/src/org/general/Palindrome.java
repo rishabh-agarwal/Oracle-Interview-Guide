@@ -1,5 +1,6 @@
 /*
  * A palindrome number is whoes reverse is same as original. For example 122221, 787
+ * 
  */
 
 package org.general;
