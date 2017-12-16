@@ -2,7 +2,7 @@
 
 ## Behavioral Questions:
 
-These all question I prepared from Glassdoor, not all question will be asked in the interview
+_These all question I prepared from Glassdoor, not all question will be asked in the interview_
 
 Describe a time when you had to work through a complicated task?
 
