@@ -1,8 +1,11 @@
-# Cerner-Interview
+# Java Interview Guide
+_The following question were prepared for Cerner Interview for Software Engineer Position, but it is not limited to it._
+_These all question I prepared from Glassdoor, and doesn't gurantee these question will be asked everytime._ 
+**This repository is made for practice purpose only**
 
-_These all question I prepared from Glassdoor, not all question will be asked in the interview_
+This repo include some of the possible behavioral and coding question.
 
-## Behavioral Questions:
+### Behavioral Questions:
 
 
 Describe a time when you had to work through a complicated task?
@@ -137,7 +140,7 @@ Why do you want to work for Cerner? How did you hear about Cerner?
 
 Time where you were doing something incorrect at work. How did you respond?
 
-## Technical Questions
+### Technical Questions
 
 Difference between class and object with example?
 
@@ -241,4 +244,8 @@ agile or waterfall model ? advantages/disadvantages, which one u worked on? Whic
 How would you fix a problem if you are unable to see the code for an application?  
 
 Your favorite data structure? Why? What is the time complexity of insert, delete, search of this data structure 
+
+## Author
+- Rishabh Agarwal (rishaba@g.clemson.edu OR rishabh.agarwal1124@gmail.com)
+
 
