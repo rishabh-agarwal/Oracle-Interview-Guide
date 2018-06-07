@@ -248,4 +248,5 @@ Your favorite data structure? Why? What is the time complexity of insert, delete
 ## Author
 - Rishabh Agarwal (rishaba@g.clemson.edu OR rishabh.agarwal1124@gmail.com)
 
-
+## License
+This project is licensed under the GNU General Public License - see the LICENSE file for details
