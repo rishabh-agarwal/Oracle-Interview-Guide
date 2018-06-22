@@ -18,8 +18,8 @@ public class ExtractingNumFromString {
 		System.out.println("Enter a sequence");
 		String input = sc.nextLine();
 		
-		String result = input.replaceAll("^[0-9]", "");
-		
+		String result = input.replaceAll("[0-9]", "");
+
 		System.out.println(result);
 	}
 
