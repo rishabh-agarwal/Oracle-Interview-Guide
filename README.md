@@ -5,7 +5,13 @@ _These all question I prepared from Glassdoor, and doesn't gurantee these questi
 
 This repo include some of the possible behavioral and coding question.
 
-### Behavioral Questions:
+### First Round (Phone round with Recuriter at Cerner - stephen)
+1. Brief Introduction about yourself?
+2. Describe your past experience? (basically about your task/techonology your worked with and daily office routine)
+3. What are the things you like and dislike in your previous job?
+4. What will be one thing that you will like to change in the previous/current position?
+
+### Other Possible Behavioral Questions:
 
 
 Describe a time when you had to work through a complicated task?
